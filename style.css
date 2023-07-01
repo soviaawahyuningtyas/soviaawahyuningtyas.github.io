@@ -11,6 +11,7 @@
   scroll-padding-top: 2rem;
   font-family: "Poppins", sans-serif;
 }
+
 :root {
   --main-color: #033a80;
   --bg-color: #fff;
@@ -35,6 +36,9 @@ body {
 *::selection {
   color: var(--bg-color);
   background: var(--main-color);
+}
+.navbar li{
+  cursor: pointer;
 }
 .heading {
   text-align: center;
@@ -468,4 +472,19 @@ form textarea {
   .contact-button{
     margin-left: 25%;
   }
+}
+
+#status{
+    margin-right: auto;
+    display: block;
+    width: 20px;
+}
+
+#submit-form{
+  border: 1px solid;
+  cursor: pointer;
+}
+
+#warning{
+  color: red;
 }
